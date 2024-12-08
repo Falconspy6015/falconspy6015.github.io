@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FalconSpy6015 on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/falconspy6015/</link>
+    <link>https://falconspy6015.github.io/tags/falconspy6015/</link>
     <description>Recent content in FalconSpy6015 on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="http://localhost:1313/tags/falconspy6015/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/falconspy6015/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📓 The Obsidian Chronicles - Why Markdown Rules My World</title>
-      <link>http://localhost:1313/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
+      <link>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
+      <guid>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
       <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
 Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
 No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
