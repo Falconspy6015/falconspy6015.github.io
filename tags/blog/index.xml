@@ -4,21 +4,16 @@
     <title>Blog on Falconspy6015</title>
     <link>/tags/blog/</link>
     <description>Recent content in Blog on Falconspy6015</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate>
+    <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📓 The Obsidian Chronicles - Why Markdown Rules My World</title>
       <link>/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
-      
       <guid>/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
-      
-      <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
-Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
-No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
-      
+      <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.&#xA;Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:&#xA;No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
     </item>
-    
   </channel>
 </rss>

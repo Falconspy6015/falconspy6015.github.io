@@ -23,10 +23,16 @@
     <loc>/tags/automation/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/digital/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/exploring-the-digital-frontier/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/my4thpost/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/future/</loc>
@@ -35,7 +41,16 @@
     <loc>/tags/hugo/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/productivity/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/software/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tech-trends/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/technology/</loc>
@@ -43,7 +58,5 @@
   </url><url>
     <loc>/posts/the-power-of-automation-in-everyday-life/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
   </url>
 </urlset>
