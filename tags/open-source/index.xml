@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open-Source on Falconspy6015 Blog | Tech &amp; Programming</title>
-    <link>//localhost:1313/tags/open-source/</link>
+    <link>/tags/open-source/</link>
     <description>Recent content in Open-Source on Falconspy6015 Blog | Tech &amp; Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring the Power of Open-Source Software</title>
-      <link>//localhost:1313/posts/2024/12/08/exploring-the-power-of-open-source-software/</link>
+      <link>/posts/2024/12/08/exploring-the-power-of-open-source-software/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/2024/12/08/exploring-the-power-of-open-source-software/</guid>
+      <guid>/posts/2024/12/08/exploring-the-power-of-open-source-software/</guid>
       
       <description>Open-source software has become a powerful force in the technology world, shaping everything from operating systems to development tools. In this post, we’ll explore what open-source software is, why it matters, and how it has revolutionized the way we build and use technology.
 What is Open-Source Software? Open-source software refers to software whose source code is made available to the public to view, use, modify, and distribute. This collaborative model of software development promotes transparency, community involvement, and innovation.</description>

@@ -1,7 +1,7 @@
 {
     "name": "Falconspy6015 Blog | Tech & Programming",
     "short_name": "Falconspy6015 Blog | Tech & Programming",
-    "start_url": "//localhost:1313/",
+    "start_url": "/",
     "theme_color": "#434648",
     "background_color": "#ffffff",
     "display": "standalone",
