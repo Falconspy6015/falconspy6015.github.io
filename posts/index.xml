@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Falconspy6015</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Falconspy6015</description>
+    <title>Posts on Falconspy6015 Blog | Tech &amp; Programming</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Falconspy6015 Blog | Tech &amp; Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📓 The Obsidian Chronicles - Why Markdown Rules My World</title>
-      <link>/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
+      <link>//localhost:1313/posts/2024/12/08/the-obsidian-chronicles-why-markdown-rules-my-world/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
+      <guid>//localhost:1313/posts/2024/12/08/the-obsidian-chronicles-why-markdown-rules-my-world/</guid>
       
       <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
 Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
@@ -22,10 +22,10 @@ No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary fo
     
     <item>
       <title>Exploring the Digital Frontier</title>
-      <link>/posts/exploring-the-digital-frontier/</link>
+      <link>//localhost:1313/posts/2024/12/08/exploring-the-digital-frontier/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/exploring-the-digital-frontier/</guid>
+      <guid>//localhost:1313/posts/2024/12/08/exploring-the-digital-frontier/</guid>
       
       <description>Welcome to the Digital Frontier As we stand at the crossroads of the digital age, technology is rapidly transforming every aspect of our lives. From artificial intelligence to blockchain, the future promises a new world where digital innovations drive change at an unprecedented pace. In this post, we’ll explore some of the most exciting developments in technology and how they’re shaping our world.
 The Rise of Artificial Intelligence Artificial Intelligence (AI) has emerged as one of the most powerful forces in modern technology.</description>
@@ -34,10 +34,10 @@ The Rise of Artificial Intelligence Artificial Intelligence (AI) has emerged as 
     
     <item>
       <title>Exploring the Power of Open-Source Software</title>
-      <link>/posts/my4thpost/</link>
+      <link>//localhost:1313/posts/2024/12/08/exploring-the-power-of-open-source-software/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my4thpost/</guid>
+      <guid>//localhost:1313/posts/2024/12/08/exploring-the-power-of-open-source-software/</guid>
       
       <description>Open-source software has become a powerful force in the technology world, shaping everything from operating systems to development tools. In this post, we’ll explore what open-source software is, why it matters, and how it has revolutionized the way we build and use technology.
 What is Open-Source Software? Open-source software refers to software whose source code is made available to the public to view, use, modify, and distribute. This collaborative model of software development promotes transparency, community involvement, and innovation.</description>
@@ -46,10 +46,10 @@ What is Open-Source Software? Open-source software refers to software whose sour
     
     <item>
       <title>The Power of Automation in Everyday Life</title>
-      <link>/posts/the-power-of-automation-in-everyday-life/</link>
+      <link>//localhost:1313/posts/2024/12/08/the-power-of-automation-in-everyday-life/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/posts/the-power-of-automation-in-everyday-life/</guid>
+      <guid>//localhost:1313/posts/2024/12/08/the-power-of-automation-in-everyday-life/</guid>
       
       <description>Automation isn&amp;rsquo;t just a buzzword. It’s quietly revolutionizing the way we live, work, and interact with the world. From the moment you wake up to the time you hit the bed at night, automation is there, making everything smoother and more efficient. But what does this really mean for us as individuals?
 What is Automation? At its core, automation is the use of technology to perform tasks without human intervention. This can range from simple tasks, like setting alarms or automating your morning coffee, to more complex systems, such as self-driving cars or financial algorithms predicting stock market trends.</description>
