@@ -1,90 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://falconspy6015.github.io/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Falconspy6015</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Falconspy6015</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://falconspy6015.github.io/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>FalconSpy6015</title>
-      <link>https://falconspy6015.github.io/tags/falconspy6015/</link>
+      <link>/tags/falconspy6015/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/falconspy6015/</guid>
+      <guid>/tags/falconspy6015/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Automation</title>
-      <link>https://falconspy6015.github.io/tags/automation/</link>
+      <link>/tags/automation/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/automation/</guid>
+      <guid>/tags/automation/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Digital</title>
-      <link>https://falconspy6015.github.io/tags/digital/</link>
+      <link>/tags/digital/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/digital/</guid>
+      <guid>/tags/digital/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Future</title>
-      <link>https://falconspy6015.github.io/tags/future/</link>
+      <link>/tags/future/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/future/</guid>
+      <guid>/tags/future/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://falconspy6015.github.io/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>https://falconspy6015.github.io/tags/productivity/</link>
+      <link>/tags/productivity/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/productivity/</guid>
+      <guid>/tags/productivity/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://falconspy6015.github.io/tags/technology/</link>
+      <link>/tags/technology/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/tags/technology/</guid>
+      <guid>/tags/technology/</guid>
+      
       <description></description>
-      <content></content>
+      
     </item>
     
   </channel>
