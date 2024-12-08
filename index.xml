@@ -2,92 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://falconspy6015.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📓 The Obsidian Chronicles - Why Markdown Rules My World</title>
-      <link>http://localhost:1313/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <link>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
+      <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
-      <description>Markdown is like the unsung hero of the digital world. It doesn’t shout with bold fonts or distract with fancy UI. Instead, it says, &amp;ldquo;Here’s your content, clean and simple.&amp;rdquo; And in Obsidian? That simplicity becomes&amp;hellip;magical.
-Why? Lol
-No Vendor Lock-in: Your notes are yours forever. No proprietary formats here. Speed: Plain text is lightning fast. Even my five-year-old laptop runs like a cheetah. Portability: Open it anywhere—your phone, your laptop, even on Mars (okay, maybe not yet).</description>
-      <content>&lt;p&gt;Markdown is like the unsung hero of the digital world. It doesn’t shout with bold fonts or distract with fancy UI. Instead, it says, &lt;em&gt;&amp;ldquo;Here’s your content, clean and simple.&amp;rdquo;&lt;/em&gt; And in Obsidian? That simplicity becomes&amp;hellip;magical.&lt;/p&gt;
-&lt;p&gt;Why? Lol&lt;/p&gt;
+      <guid>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
+      <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
+Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
+No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
+      <content>&lt;p&gt;Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &lt;em&gt;&amp;ldquo;Here’s your content, pure and simple.&amp;rdquo;&lt;/em&gt; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-markdown&#34;&gt;Why Markdown?&lt;/h3&gt;
+&lt;p&gt;Markdown is my &lt;strong&gt;go-to tool&lt;/strong&gt; for note-taking, blogging, and organizing my digital life. Here’s why:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;No Vendor Lock-in&lt;/strong&gt;: Your notes are yours forever. No proprietary formats here.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Plain text is lightning fast. Even my five-year-old laptop runs like a cheetah.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Portability&lt;/strong&gt;: Open it anywhere—your phone, your laptop, even on Mars (okay, maybe not yet).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Vendor Lock-in&lt;/strong&gt;: Your notes remain accessible forever. No pesky proprietary formats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Plain text is blazingly fast—even on my ancient laptop.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portability&lt;/strong&gt;: Open it anywhere—your phone, your desktop, or even a Raspberry Pi.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;how-i-supercharged-my-knowledge-hub&#34;&gt;&lt;strong&gt;How I Supercharged My Knowledge Hub&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Obsidian isn’t just a note-taking app; it’s a &lt;em&gt;way of life.&lt;/em&gt; With its &lt;strong&gt;bi-directional links&lt;/strong&gt; and graph view, it’s like having a personal neural network for my brain dumps.&lt;/p&gt;
+&lt;h3 id=&#34;obsidian-my-brains-second-home-&#34;&gt;Obsidian: My Brain’s Second Home 🧠&lt;/h3&gt;
+&lt;p&gt;Obsidian isn’t just a note-taking app; it’s a &lt;strong&gt;knowledge powerhouse&lt;/strong&gt;. Its &lt;strong&gt;bi-directional links&lt;/strong&gt; and graph view turn my random thoughts into structured networks of ideas.&lt;/p&gt;
 &lt;h4 id=&#34;my-workflow&#34;&gt;My Workflow:&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Daily Notes&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Morning: &amp;ldquo;What’s on my to-do list?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Evening: &amp;ldquo;What did I &lt;em&gt;actually&lt;/em&gt; do today?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Morning:&lt;/em&gt; Plan my day.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Evening:&lt;/em&gt; Reflect and jot down what I learned.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Coding Tips&lt;/strong&gt;: Whenever I find a cool snippet (like how to debug a crazy Python bug), it gets a cozy spot in my &lt;strong&gt;Code Vault&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Coding Vault&lt;/strong&gt;:&lt;br&gt;
+Every cool snippet—whether it’s debugging Python or mastering Rust—has its own cozy corner.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Project Tracking&lt;/strong&gt;: Whether it’s a side hustle, CTF challenge, or learning a new tech stack, everything lives here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project Tracking&lt;/strong&gt;:&lt;br&gt;
+Whether it’s a CTF, a new blog post, or learning a tech stack, Obsidian keeps it all together.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;markdown-pro-tips-for-the-cool-kids&#34;&gt;&lt;strong&gt;Markdown Pro-Tips (For the Cool Kids)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Here are some of my favorite Markdown tricks that work seamlessly in Obsidian:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Tables (Keep it Neat!)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;markdown&lt;/p&gt;
-&lt;p&gt;Copy code&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;| Language | Use Case       | Coolness Factor | |----------|----------------|-----------------| | Python   | Everything 😎   | 10/10          | | Rust     | Speed + Safety | 9.5/10         | | Bash     | Quick Scripts  | 8/10           |&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Embeddable Goodness&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;markdown&lt;/p&gt;
-&lt;p&gt;Copy code&lt;/p&gt;
-&lt;p&gt;![[Pasted image 20241115145036.png]]&lt;/p&gt;
-&lt;p&gt;It’s like drag-and-drop, but nerdier.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Fancy Callouts&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;markdown&lt;/p&gt;
-&lt;p&gt;Copy code&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&amp;gt; [!tip] Pro-Tip: &amp;gt; Use `[[Internal Links]]` to connect your ideas faster than your brain can process caffeine.&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;a-quick-hack-for-obsidian-bloggers&#34;&gt;&lt;strong&gt;A Quick Hack for Obsidian Bloggers&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Want to turn your Obsidian notes into a &lt;strong&gt;shiny Hugo blog&lt;/strong&gt;? Here’s the secret sauce:&lt;/p&gt;
+&lt;h3 id=&#34;markdown-hacks-for-the-cool-kids-&#34;&gt;Markdown Hacks for the Cool Kids 🤓&lt;/h3&gt;
+&lt;p&gt;Want to level up your Markdown game? Here are my top tricks:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Sync your &lt;code&gt;posts&lt;/code&gt; folder to Hugo with &lt;code&gt;rsync&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Process image links using a Python script.&lt;/li&gt;
-&lt;li&gt;Deploy with Git. (You’ve already got this script, right? 😉)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tables for Quick Comparisons&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;| Language | Use Case       | Coolness Factor |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;|----------|----------------|-----------------|
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;| Python   | Everything 😎   | 10/10          |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;| Rust     | Speed + Safety | 9.5/10         |
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;| Bash     | Quick Scripts  | 8/10           |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;final-thoughts-why-obsidian-wins&#34;&gt;&lt;strong&gt;Final Thoughts: Why Obsidian Wins&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;In a world drowning in complex apps, Obsidian is a breath of fresh air. It’s:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimalist but powerful.&lt;/li&gt;
-&lt;li&gt;Organized but not rigid.&lt;/li&gt;
-&lt;li&gt;Fun but&amp;hellip;okay, maybe I’m just a nerd. 😜&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So, grab your Markdown files, fire up Obsidian, and start writing the next great idea!&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Call to Action:&lt;/strong&gt;&lt;br&gt;
-What’s &lt;em&gt;your&lt;/em&gt; favorite Obsidian feature? Drop a comment or ping me on GitHub—I’d love to swap tips!&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
     </item>
     
