@@ -1,9 +1,9 @@
 {
-    "name": "Falconspy6015 Blog | Tech & Programming",
-    "short_name": "Falconspy6015 Blog | Tech & Programming",
+    "name": "sitename",
+    "short_name": "sitename",
     "start_url": "/",
     "theme_color": "#434648",
-    "background_color": "#ffffff",
+    "background_color": "#fff",
     "display": "standalone",
     "icons": [
         {

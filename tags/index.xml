@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Falconspy6015 Blog | Tech &amp; Programming</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Falconspy6015 Blog | Tech &amp; Programming</description>
+    <title>Tags on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/</link>
+    <description>Recent content in Tags on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>/tags/blog/</link>
+      <link>https://falconspy6015.github.io/tags/blog/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>/tags/blog/</guid>
+      <guid>https://falconspy6015.github.io/tags/blog/</guid>
       
       <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>FalconSpy6015</title>
-      <link>/tags/falconspy6015/</link>
+      <link>https://falconspy6015.github.io/tags/falconspy6015/</link>
       <pubDate>Sun, 08 Dec 2024 16:47:19 +0530</pubDate>
       
-      <guid>/tags/falconspy6015/</guid>
+      <guid>https://falconspy6015.github.io/tags/falconspy6015/</guid>
       
       <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Automation</title>
-      <link>/tags/automation/</link>
+      <link>https://falconspy6015.github.io/tags/automation/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/automation/</guid>
+      <guid>https://falconspy6015.github.io/tags/automation/</guid>
       
       <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Digital</title>
-      <link>/tags/digital/</link>
+      <link>https://falconspy6015.github.io/tags/digital/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/digital/</guid>
+      <guid>https://falconspy6015.github.io/tags/digital/</guid>
       
       <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Future</title>
-      <link>/tags/future/</link>
+      <link>https://falconspy6015.github.io/tags/future/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/future/</guid>
+      <guid>https://falconspy6015.github.io/tags/future/</guid>
       
       <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://falconspy6015.github.io/tags/hugo/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://falconspy6015.github.io/tags/hugo/</guid>
       
       <description></description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>Open-Source</title>
-      <link>/tags/open-source/</link>
+      <link>https://falconspy6015.github.io/tags/open-source/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/open-source/</guid>
+      <guid>https://falconspy6015.github.io/tags/open-source/</guid>
       
       <description></description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title>Productivity</title>
-      <link>/tags/productivity/</link>
+      <link>https://falconspy6015.github.io/tags/productivity/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/productivity/</guid>
+      <guid>https://falconspy6015.github.io/tags/productivity/</guid>
       
       <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>Software</title>
-      <link>/tags/software/</link>
+      <link>https://falconspy6015.github.io/tags/software/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/software/</guid>
+      <guid>https://falconspy6015.github.io/tags/software/</guid>
       
       <description></description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title>Technology</title>
-      <link>/tags/technology/</link>
+      <link>https://falconspy6015.github.io/tags/technology/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/tags/technology/</guid>
+      <guid>https://falconspy6015.github.io/tags/technology/</guid>
       
       <description></description>
       
