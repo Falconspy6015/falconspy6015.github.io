@@ -8,6 +8,26 @@
     <language>en-gb</language>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Day 1</title>
+      <link>https://falconspy6015.github.io/journal/day-1/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/day-1/</guid>
+      
+      <description>&lt;h1 id=&#34;todays-progress&#34;&gt;Today&amp;rsquo;s Progress:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Completed ROS 2 4-wheeled robot simulation in Gazebo&lt;/strong&gt;: Spent time configuring and simulating a robot model using Gazebo. It was an exciting hands-on experience, and I&amp;rsquo;m glad to see it working.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set up my journal for the new year&lt;/strong&gt;: Dedicated some time today to create a fresh journal layout for 2025. This will help keep my daily progress and thoughts organized for the upcoming semester.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Shifted my laptop&lt;/strong&gt;: Moved everything from my old system to my new one, ensuring that all my data and files are ready for the next phase of work. Everything’s now set up for easy access when I return to campus.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>New Year New Me</title>
       <link>https://falconspy6015.github.io/posts/new-year-new-me/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
