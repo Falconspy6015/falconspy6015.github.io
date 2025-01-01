@@ -14,9 +14,18 @@
       
       <guid>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
       
-      <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
-Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
-No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
+      <description>&lt;p&gt;Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &lt;em&gt;&amp;ldquo;Here’s your content, pure and simple.&amp;rdquo;&lt;/em&gt; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-markdown&#34;&gt;Why Markdown?&lt;/h3&gt;
+&lt;p&gt;Markdown is my &lt;strong&gt;go-to tool&lt;/strong&gt; for note-taking, blogging, and organizing my digital life. Here’s why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No Vendor Lock-in&lt;/strong&gt;: Your notes remain accessible forever. No pesky proprietary formats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Plain text is blazingly fast—even on my ancient laptop.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portability&lt;/strong&gt;: Open it anywhere—your phone, your desktop, or even a Raspberry Pi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;obsidian-my-brains-second-home-&#34;&gt;Obsidian: My Brain’s Second Home 🧠&lt;/h3&gt;
+&lt;p&gt;Obsidian isn’t just a note-taking app; it’s a &lt;strong&gt;knowledge powerhouse&lt;/strong&gt;. Its &lt;strong&gt;bi-directional links&lt;/strong&gt; and graph view turn my random thoughts into structured networks of ideas.&lt;/p&gt;</description>
       
     </item>
     

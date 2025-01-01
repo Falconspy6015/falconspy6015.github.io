@@ -6,7 +6,36 @@
     <description>Recent content on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 08 Dec 2024 16:47:19 +0530</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Year New Me</title>
+      <link>https://falconspy6015.github.io/posts/new-year-new-me/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/posts/new-year-new-me/</guid>
+      
+      <description>&lt;h1 id=&#34;a-new-year-a-new-vision&#34;&gt;A New Year, A New Vision&lt;/h1&gt;
+&lt;p&gt;As the new year unfolds, I&amp;rsquo;m reflecting on the journey so far and looking ahead to the exciting challenges and opportunities to come.&lt;/p&gt;
+&lt;h2 id=&#34;academics-and-aspirations&#34;&gt;Academics and Aspirations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;My focus remains on excelling in electrical engineering at IITM, diving deeper into semiconductor specialization, and staying aligned with my goal of securing a top-tier placement at companies like NVIDIA, Intel, and Amazon.&lt;/li&gt;
+&lt;li&gt;Beyond academics, I aim to sharpen my competitive programming skills, mastering problem-solving to stand out in tech challenges.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;building-and-innovating&#34;&gt;Building and Innovating&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I’ve made strides in personal projects, from developing apps like Florafix to diving into open-source and honing my web development skills with frameworks like Hugo.&lt;/li&gt;
+&lt;li&gt;CTF challenges and exploring cybersecurity continue to expand my skill set and fuel my curiosity for problem-solving.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;health-habits-and-growth&#34;&gt;Health, Habits, and Growth&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Discipline in routines like morning study sessions and mindful eating remain key to balancing my ambitions with personal well-being.&lt;/li&gt;
+&lt;li&gt;Music, podcasts, and meaningful interactions are helping me stay relaxed and creative.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-road-ahead&#34;&gt;The Road Ahead&lt;/h2&gt;
+&lt;p&gt;2025 is about building momentum toward becoming financially stable and striving for excellence in all my endeavors, whether it&amp;rsquo;s academics, projects, or personal growth. It&amp;rsquo;s another step closer to the big dream of making an impact and supporting my family.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>📓 The Obsidian Chronicles - Why Markdown Rules My World</title>
       <link>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</link>
@@ -14,9 +43,18 @@
       
       <guid>https://falconspy6015.github.io/posts/-the-obsidian-chronicles---why-markdown-rules-my-world/</guid>
       
-      <description>Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &amp;ldquo;Here’s your content, pure and simple.&amp;rdquo; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.
-Why Markdown? Markdown is my go-to tool for note-taking, blogging, and organizing my digital life. Here’s why:
-No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary formats. Speed: Plain text is blazingly fast—even on my ancient laptop.</description>
+      <description>&lt;p&gt;Markdown is the silent warrior of the digital age. It doesn’t dazzle with fancy fonts or over-the-top styling. Instead, it whispers: &lt;em&gt;&amp;ldquo;Here’s your content, pure and simple.&amp;rdquo;&lt;/em&gt; And when paired with Obsidian, that simplicity transforms into something&amp;hellip; magical.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-markdown&#34;&gt;Why Markdown?&lt;/h3&gt;
+&lt;p&gt;Markdown is my &lt;strong&gt;go-to tool&lt;/strong&gt; for note-taking, blogging, and organizing my digital life. Here’s why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No Vendor Lock-in&lt;/strong&gt;: Your notes remain accessible forever. No pesky proprietary formats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Plain text is blazingly fast—even on my ancient laptop.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portability&lt;/strong&gt;: Open it anywhere—your phone, your desktop, or even a Raspberry Pi.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;obsidian-my-brains-second-home-&#34;&gt;Obsidian: My Brain’s Second Home 🧠&lt;/h3&gt;
+&lt;p&gt;Obsidian isn’t just a note-taking app; it’s a &lt;strong&gt;knowledge powerhouse&lt;/strong&gt;. Its &lt;strong&gt;bi-directional links&lt;/strong&gt; and graph view turn my random thoughts into structured networks of ideas.&lt;/p&gt;</description>
       
     </item>
     
@@ -27,8 +65,9 @@ No Vendor Lock-in: Your notes remain accessible forever. No pesky proprietary fo
       
       <guid>https://falconspy6015.github.io/about/</guid>
       
-      <description>Welcome to My Blog Hello! I&amp;rsquo;m Falconspy6015, a passionate developer who loves to explore technology, coding, and open-source projects. In this blog, I share my thoughts on programming, cybersecurity, and more. Thank you for visiting!
-Feel free to connect with me through my social links below.</description>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h2&gt;
+&lt;p&gt;Hello! I&amp;rsquo;m Falconspy6015, a passionate developer who loves to explore technology, coding, and open-source projects. In this blog, I share my thoughts on programming, cybersecurity, and more. Thank you for visiting!&lt;/p&gt;
+&lt;p&gt;Feel free to connect with me through my social links below.&lt;/p&gt;</description>
       
     </item>
     
@@ -39,8 +78,10 @@ Feel free to connect with me through my social links below.</description>
       
       <guid>https://falconspy6015.github.io/posts/exploring-the-digital-frontier/</guid>
       
-      <description>Welcome to the Digital Frontier As we stand at the crossroads of the digital age, technology is rapidly transforming every aspect of our lives. From artificial intelligence to blockchain, the future promises a new world where digital innovations drive change at an unprecedented pace. In this post, we’ll explore some of the most exciting developments in technology and how they’re shaping our world.
-The Rise of Artificial Intelligence Artificial Intelligence (AI) has emerged as one of the most powerful forces in modern technology.</description>
+      <description>&lt;h1 id=&#34;welcome-to-the-digital-frontier&#34;&gt;Welcome to the Digital Frontier&lt;/h1&gt;
+&lt;p&gt;As we stand at the crossroads of the digital age, technology is rapidly transforming every aspect of our lives. From artificial intelligence to blockchain, the future promises a new world where digital innovations drive change at an unprecedented pace. In this post, we’ll explore some of the most exciting developments in technology and how they’re shaping our world.&lt;/p&gt;
+&lt;h2 id=&#34;the-rise-of-artificial-intelligence&#34;&gt;The Rise of Artificial Intelligence&lt;/h2&gt;
+&lt;p&gt;Artificial Intelligence (AI) has emerged as one of the most powerful forces in modern technology. AI is no longer just a concept from science fiction — it’s a reality that’s influencing industries like healthcare, finance, and entertainment. But what does the future hold for AI?&lt;/p&gt;</description>
       
     </item>
     
@@ -51,8 +92,9 @@ The Rise of Artificial Intelligence Artificial Intelligence (AI) has emerged as 
       
       <guid>https://falconspy6015.github.io/posts/my4thpost/</guid>
       
-      <description>Open-source software has become a powerful force in the technology world, shaping everything from operating systems to development tools. In this post, we’ll explore what open-source software is, why it matters, and how it has revolutionized the way we build and use technology.
-What is Open-Source Software? Open-source software refers to software whose source code is made available to the public to view, use, modify, and distribute. This collaborative model of software development promotes transparency, community involvement, and innovation.</description>
+      <description>&lt;p&gt;Open-source software has become a powerful force in the technology world, shaping everything from operating systems to development tools. In this post, we’ll explore what open-source software is, why it matters, and how it has revolutionized the way we build and use technology.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-open-source-software&#34;&gt;What is Open-Source Software?&lt;/h3&gt;
+&lt;p&gt;Open-source software refers to software whose source code is made available to the public to view, use, modify, and distribute. This collaborative model of software development promotes transparency, community involvement, and innovation. Famous examples of open-source software include:&lt;/p&gt;</description>
       
     </item>
     
@@ -63,8 +105,14 @@ What is Open-Source Software? Open-source software refers to software whose sour
       
       <guid>https://falconspy6015.github.io/showcase/</guid>
       
-      <description>My Projects Here are some of the exciting projects I’ve worked on:
-Project 1: FalconChat Description: An encrypted chat application for secure communication. Technologies: Python, Node js, WebSockets Link: View Project </description>
+      <description>&lt;h2 id=&#34;my-projects&#34;&gt;My Projects&lt;/h2&gt;
+&lt;p&gt;Here are some of the exciting projects I’ve worked on:&lt;/p&gt;
+&lt;h3 id=&#34;project-1-falconchat&#34;&gt;Project 1: FalconChat&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: An encrypted chat application for secure communication.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Python, Node js, WebSockets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: &lt;a href=&#34;https://github.com/Falconspy6015/FalconChat&#34;&gt;View Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     
@@ -75,8 +123,9 @@ Project 1: FalconChat Description: An encrypted chat application for secure comm
       
       <guid>https://falconspy6015.github.io/posts/the-power-of-automation-in-everyday-life/</guid>
       
-      <description>Automation isn&amp;rsquo;t just a buzzword. It’s quietly revolutionizing the way we live, work, and interact with the world. From the moment you wake up to the time you hit the bed at night, automation is there, making everything smoother and more efficient. But what does this really mean for us as individuals?
-What is Automation? At its core, automation is the use of technology to perform tasks without human intervention. This can range from simple tasks, like setting alarms or automating your morning coffee, to more complex systems, such as self-driving cars or financial algorithms predicting stock market trends.</description>
+      <description>&lt;p&gt;Automation isn&amp;rsquo;t just a buzzword. It’s quietly revolutionizing the way we live, work, and interact with the world. From the moment you wake up to the time you hit the bed at night, automation is there, making everything smoother and more efficient. But what does this really mean for us as individuals?&lt;/p&gt;
+&lt;h2 id=&#34;what-is-automation&#34;&gt;&lt;strong&gt;What is Automation?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;At its core, automation is the use of technology to perform tasks without human intervention. This can range from simple tasks, like setting alarms or automating your morning coffee, to more complex systems, such as self-driving cars or financial algorithms predicting stock market trends.&lt;/p&gt;</description>
       
     </item>
     
