@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decentraliation on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/decentraliation/</link>
+    <description>Recent content in Decentraliation on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/decentraliation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BLOCKCHAIN DEVELOPMENT WORKSHOP</title>
+      <link>https://falconspy6015.github.io/posts/blockchain-development-workshop/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/posts/blockchain-development-workshop/</guid>
+      
+      <description>&lt;h1 id=&#34;blockchain-workshop-notes&#34;&gt;Blockchain Workshop Notes&lt;/h1&gt;
+&lt;h2 id=&#34;introduction-to-blockchain-concepts&#34;&gt;Introduction to Blockchain Concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blockchain&lt;/strong&gt;: A decentralized, distributed ledger technology for storing transaction records in immutable blocks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decentralization&lt;/strong&gt;: Eliminating a central authority to improve security and transparency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distributed Ledger&lt;/strong&gt;: A shared database replicated across nodes in a network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hashing&lt;/strong&gt;: A cryptographic method to map data to fixed-size values securely.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sha-256&#34;&gt;SHA-256&lt;/h2&gt;
+&lt;p&gt;Key characteristics of the SHA-256 hashing algorithm:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Deterministic&lt;/strong&gt;: Same input produces the same output every time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collision Resistance&lt;/strong&gt;: Difficult to find two inputs that produce the same hash.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;: Quick computation ensures efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Way&lt;/strong&gt;: Impossible to reverse-engineer input from the hash.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A &lt;strong&gt;valid hash&lt;/strong&gt; meets specific criteria, such as having a fixed number of leading zeros.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
