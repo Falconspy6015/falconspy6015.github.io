@@ -6,7 +6,37 @@
     <description>Recent content in Technology on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ETHICAL HACKING WORKSHOP</title>
+      <link>https://falconspy6015.github.io/posts/ethical-hacking-workshop/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/posts/ethical-hacking-workshop/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;THE CIA TRIAD: -THE VALUE BEHIND THE FIELD&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;integrity&lt;/li&gt;
+&lt;li&gt;confidentiality&lt;/li&gt;
+&lt;li&gt;availability&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;THE DIFFERENCE BETWEEN IP ADDRESS AND MAC ADDRESS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IP Address&lt;/strong&gt;: Logical, identifies devices across networks.&lt;br&gt;
+&lt;strong&gt;MAC Address&lt;/strong&gt;: Physical, identifies devices within networks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;THE OSI (OPEN SYSTEM INTERCOMMUNICATION) MODEL&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Physical Layer&lt;/strong&gt;: Transfers raw bits over physical mediums.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Link Layer&lt;/strong&gt;: Manages node-to-node data transmission reliability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Layer&lt;/strong&gt;: Routes data packets between networks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transport Layer&lt;/strong&gt;: Ensures error-free, complete data transfer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session Layer&lt;/strong&gt;: Manages and controls communication sessions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentation Layer&lt;/strong&gt;: Formats, encrypts, and translates application data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Application Layer&lt;/strong&gt;: Enables user and application interactions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here are common exploits at each layer of the OSI model:&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>BLOCKCHAIN DEVELOPMENT WORKSHOP</title>
       <link>https://falconspy6015.github.io/posts/blockchain-development-workshop/</link>
