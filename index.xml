@@ -6,15 +6,15 @@
     <description>Recent content on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Day 8</title>
-      <link>https://falconspy6015.github.io/journal/day-8/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Day 9</title>
+      <link>https://falconspy6015.github.io/journal/day-9/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://falconspy6015.github.io/journal/day-8/</guid>
+      <guid>https://falconspy6015.github.io/journal/day-9/</guid>
       
-      <description>&lt;h3 id=&#34;january-8-2025---a-carnival-of-culture-and-creativity&#34;&gt;&lt;strong&gt;January 8, 2025 - A Carnival of Culture and Creativity&lt;/strong&gt;&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;january-9-2025---a-carnival-of-culture-and-creativity&#34;&gt;&lt;strong&gt;January 9, 2025 - A Carnival of Culture and Creativity&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Today marked &lt;strong&gt;Day 0&lt;/strong&gt; of &lt;strong&gt;Saarang&lt;/strong&gt;, our much-awaited cultural fest, and it was a day brimming with excitement, camaraderie, and awe-inspiring experiences.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;exploring-stalls-a-vibrant-start&#34;&gt;&lt;strong&gt;Exploring Stalls: A Vibrant Start&lt;/strong&gt;&lt;/h4&gt;
@@ -28,6 +28,20 @@
 &lt;hr&gt;
 &lt;h4 id=&#34;drama-and-theatrics-performances-that-inspire&#34;&gt;&lt;strong&gt;Drama and Theatrics: Performances That Inspire&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Next, I headed to the &lt;strong&gt;CLT Lawns (Central Lecture Theatre)&lt;/strong&gt; to witness a &lt;strong&gt;drama competition&lt;/strong&gt; featuring performances from various colleges.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 8</title>
+      <link>https://falconspy6015.github.io/journal/day-8/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/day-8/</guid>
+      
+      <description>&lt;h3 id=&#34;january-8-2025---a-day-of-exploration-in-ros2&#34;&gt;&lt;strong&gt;January 8, 2025 - A Day of Exploration in ROS2&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Today was a self-paced and highly productive day as I took a deep dive into the world of Robot Operating System 2 (ROS2). Without any scheduled events or workshops, I focused on expanding my robotics knowledge and experimenting hands-on with new concepts.&lt;/p&gt;
+&lt;h3 id=&#34;building-ros2-nodes&#34;&gt;&lt;strong&gt;Building ROS2 Nodes&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;My primary goal was to enhance my understanding of ROS2 by creating custom publisher and subscriber nodes. I used my laptop&amp;rsquo;s webcam to verify their functionality, and the experiment was a success! The subscriber node processed real-time data from the webcam, while the publisher efficiently relayed the output. This reinforced my understanding of ROS2&amp;rsquo;s core architecture and messaging mechanisms.&lt;/p&gt;</description>
       
     </item>
     
