@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSLAM on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/vslam/</link>
+    <description>Recent content in VSLAM on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/vslam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 6</title>
+      <link>https://falconspy6015.github.io/journal/june/day6/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day6/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-6-2025--friday&#34;&gt;🧠 June 6, 2025 – Friday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Generated 2D Map Successfully&lt;/strong&gt;: Continued progress on the mapping front. Achieved a consistent and accurate 2D map with improved detail.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Debugged Localization Issues&lt;/strong&gt;: Faced challenges with robot localization but began troubleshooting systematically. Gained insights into possible TF and odometry conflicts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explored vSLAM Packages&lt;/strong&gt;: Dedicated time to learning about visual SLAM systems. Compared different approaches and shortlisted ones that fit our setup.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

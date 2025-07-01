@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team Meeting on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/team-meeting/</link>
+    <description>Recent content in Team Meeting on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/team-meeting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 10</title>
+      <link>https://falconspy6015.github.io/journal/june/day10/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day10/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-10-2025--tuesday&#34;&gt;📅 June 10, 2025 – Tuesday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Online Meeting with the Team&lt;/strong&gt;: Held the first virtual sync-up. Discussed timelines, expectations, and assigned initial responsibilities to each member.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drafted MoM_1 and Templates&lt;/strong&gt;: Documented the Minutes of Meeting (MoM_1) and designed reusable templates for future meetings and logs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task Assignment&lt;/strong&gt;: Delegated tasks based on everyone’s strengths and project requirements to ensure a productive week ahead.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documented Everything in GitHub&lt;/strong&gt;: Committed MoM_1 and templates to GitHub for team visibility and future reference.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

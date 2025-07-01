@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nav2 on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/nav2/</link>
+    <description>Recent content in Nav2 on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/nav2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 20</title>
+      <link>https://falconspy6015.github.io/journal/june/day20/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day20/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-20-2025--friday&#34;&gt;📅 June 20, 2025 – Friday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gazebo &amp;amp; Nav2 Experimentation&lt;/strong&gt;: Continued working with Gazebo and the Nav2 stack. Ran several tests to improve my understanding of autonomous navigation setups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weekly Project Meeting&lt;/strong&gt;: Had our scheduled weekly project meeting. Discussed progress and allocated upcoming tasks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chess Practice&lt;/strong&gt;: Played a few more rounds of chess online and pushed my rating slightly higher to &lt;strong&gt;918&lt;/strong&gt;. Not bad for a week’s work!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Steady improvements both in robotics and recreational skills. Each step forward builds momentum for the next!&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

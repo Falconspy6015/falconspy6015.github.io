@@ -6,7 +6,25 @@
     <description>Recent content in Robotics on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 26</title>
+      <link>https://falconspy6015.github.io/journal/june/day26/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day26/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-26-2025--thursday&#34;&gt;📅 June 26, 2025 – Thursday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;🧾 &lt;strong&gt;Drafted Project Tasks&lt;/strong&gt;: Structured and documented the tasks for each project member for the upcoming week to ensure clarity and accountability.&lt;/li&gt;
+&lt;li&gt;🛠️ &lt;strong&gt;Worked on Project Modules&lt;/strong&gt;: Continued working on the assigned modules, focused on stability and testing edge cases.&lt;/li&gt;
+&lt;li&gt;🤖 &lt;strong&gt;Stereo Setup Progress&lt;/strong&gt;: Successfully set up the stereo camera system and obtained a preliminary &lt;strong&gt;depth map&lt;/strong&gt; output.&lt;/li&gt;
+&lt;li&gt;🧪 &lt;strong&gt;Experimental Analysis&lt;/strong&gt;: Validated the quality of the generated depth data; began planning improvements to enhance mapping precision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The stereo mapping pipeline is finally shaping up. Tomorrow’s goal is to fine-tune the accuracy and integrate it with navigation systems.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>IOT Workshop with raspberry PI</title>
       <link>https://falconspy6015.github.io/posts/iot-workshop-with-raspberry-pi/</link>

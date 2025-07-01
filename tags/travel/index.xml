@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/travel/</link>
+    <description>Recent content in Travel on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 3</title>
+      <link>https://falconspy6015.github.io/journal/june/day3/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day3/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-3-2025--tuesday&#34;&gt;🧳 June 3, 2025 – Tuesday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Travelled to EV2 Office&lt;/strong&gt;: Made the commute to the EV2 workspace to begin work on-site. Marked the start of a more hands-on phase in the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Met Rozen in Real Life&lt;/strong&gt;: Finally got to meet Rozen in person after working remotely for a while. It was refreshing to connect face-to-face.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Started Working with Jetson&lt;/strong&gt;: Began exploring and experimenting with the NVIDIA Jetson board. Initial setup and early tests gave a sense of the powerful possibilities ahead.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

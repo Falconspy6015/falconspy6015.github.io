@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetings on FalconBlog</title>
+    <link>https://falconspy6015.github.io/tags/meetings/</link>
+    <description>Recent content in Meetings on FalconBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/tags/meetings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 27</title>
+      <link>https://falconspy6015.github.io/journal/june/day27/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/journal/june/day27/</guid>
+      
+      <description>&lt;h1 id=&#34;-june-27-2025--friday&#34;&gt;📅 June 27, 2025 – Friday&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;📝 &lt;strong&gt;Drafted Meeting Agenda&lt;/strong&gt;: Prepared a detailed agenda for the weekly project meeting to ensure structured discussions and progress tracking.&lt;/li&gt;
+&lt;li&gt;👥 &lt;strong&gt;Held Project Meeting&lt;/strong&gt;: Participated in the scheduled weekly team meeting. Discussed development milestones, upcoming deadlines, and stereo setup improvements.&lt;/li&gt;
+&lt;li&gt;🔍 &lt;strong&gt;Refined Stereo Setup&lt;/strong&gt;: Continued work on the stereo vision system. Generated another round of depth maps and observed inconsistencies that require calibration and tuning.&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Evaluation&lt;/strong&gt;: Depth map accuracy still not optimal — identifying areas where disparity and baseline adjustments are needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The meeting helped align the team, and tomorrow’s focus will be on hardware tweaks and deeper debugging of stereo output.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
