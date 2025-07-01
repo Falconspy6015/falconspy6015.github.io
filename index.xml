@@ -6,7 +6,29 @@
     <description>Recent content on FalconBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://falconspy6015.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>V-SLAM</title>
+      <link>https://falconspy6015.github.io/posts/v-slam/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://falconspy6015.github.io/posts/v-slam/</guid>
+      
+      <description>&lt;p&gt;It&amp;rsquo;s just a mapping algorithm using a camera while simultaneously localising (ie: figuring out where the camera that is being used for the mapping is in the generated map).&lt;/p&gt;
+&lt;h1 id=&#34;a-camera-gives-me-a-2d-image-how-do-i-make-a-map-from-here&#34;&gt;A camera gives me a 2D image, How do I make a map from here?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;we need to perceive depth from 2d image to understand spatial locations of object in the image from the camera.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  	2 approaches : 
+  		-Stereo camera setup (depth camera)
+  		- monocular camera depth estimation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stereo camera setup working principle:&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Day 30</title>
       <link>https://falconspy6015.github.io/journal/june/day30/</link>

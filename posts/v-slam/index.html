@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">V-SLAM | FalconBlog</title>
+<meta property="og:title" content="V-SLAM | FalconBlog" />
+<meta name="twitter:title" content="V-SLAM | FalconBlog" />
+<meta itemprop="name" content="V-SLAM | FalconBlog" />
+<meta name="application-name" content="V-SLAM | FalconBlog" />
+<meta property="og:site_name" content="FalconBlog" />
+
+<meta name="description" content="A space where creativity meets expression, and ideas come to life.">
+<meta itemprop="description" content="A space where creativity meets expression, and ideas come to life." />
+<meta property="og:description" content="A space where creativity meets expression, and ideas come to life." />
+<meta name="twitter:description" content="A space where creativity meets expression, and ideas come to life." />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="https://falconspy6015.github.io/posts/v-slam/" title="" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2025-07-01T00:00:00Z />
+    <meta property="article:published_time" content=2025-07-01T00:00:00Z />
+    <meta property="og:url" content="https://falconspy6015.github.io/posts/v-slam/" />
+
+    
+    <meta property="og:article:author" content="Falconspy6015" />
+    <meta property="article:author" content="Falconspy6015" />
+    <meta name="author" content="Falconspy6015" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "V-SLAM",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2025-07-01",
+        "description": "",
+        "wordCount":  1162 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2025-07-01",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "FalconBlog"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.147.9">
+
+    
+    <meta property="og:url" content="https://falconspy6015.github.io/posts/v-slam/">
+  <meta property="og:site_name" content="FalconBlog">
+  <meta property="og:title" content="V-SLAM">
+  <meta property="og:description" content="It’s just a mapping algorithm using a camera while simultaneously localising (ie: figuring out where the camera that is being used for the mapping is in the generated map).
+A camera gives me a 2D image, How do I make a map from here? we need to perceive depth from 2d image to understand spatial locations of object in the image from the camera.
+2 approaches : -Stereo camera setup (depth camera) - monocular camera depth estimation Stereo camera setup working principle:">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-01T00:00:00+00:00">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="V-SLAM">
+  <meta name="twitter:description" content="It’s just a mapping algorithm using a camera while simultaneously localising (ie: figuring out where the camera that is being used for the mapping is in the generated map).
+A camera gives me a 2D image, How do I make a map from here? we need to perceive depth from 2d image to understand spatial locations of object in the image from the camera.
+2 approaches : -Stereo camera setup (depth camera) - monocular camera depth estimation Stereo camera setup working principle:">
+
+
+    
+
+    <link rel="canonical" href="https://falconspy6015.github.io/posts/v-slam/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://falconspy6015.github.io/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://falconspy6015.github.io/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/posts/">
+                        Blog
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/journal/">
+                        Journal
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/showcase/">
+                        Showcase
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">V-SLAM</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-07-01T00:00:00&#43;00:00" itemprop="datePublished"> 1 Jul 2025 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#monocular">Monocular:</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#bonus-rectification-in-stereo-vision">Bonus: Rectification in Stereo Vision</a></li>
+    <li><a href="#big-pain-point-scale-ambiguity">Big pain point: <strong>Scale Ambiguity</strong></a>
+      <ul>
+        <li><a href="#ways-to-resolve-it">Ways to Resolve It:</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-what-is-loop-closure-in-vslam">1. What is <strong>Loop Closure</strong> in vSLAM?</a>
+      <ul>
+        <li><a href="#why-is-it-needed">Why is it needed?</a></li>
+        <li><a href="#how-loop-closure-works">How Loop Closure Works:</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-what-is-bundle-adjustment-ba">2. What is <strong>Bundle Adjustment (BA)</strong>?</a>
+      <ul>
+        <li><a href="#reprojection-error">Reprojection Error?</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-they-work-together-in-vslam">How They Work Together in vSLAM</a></li>
+    <li><a href="#example-orb-slam--rtab-map">Example: ORB-SLAM / RTAB-Map</a></li>
+    <li><a href="#why-dynaslam">Why DynaSLAM?</a></li>
+    <li><a href="#how-dynaslam-works">How DynaSLAM Works</a>
+      <ul>
+        <li><a href="#1--dynamic-object-detection">1.  <strong>Dynamic Object Detection</strong></a></li>
+        <li><a href="#2--masking-out-dynamic-regions">2.  <strong>Masking Out Dynamic Regions</strong></a></li>
+        <li><a href="#3-tracking-and-mapping">3. <strong>Tracking and Mapping</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#output">Output</a></li>
+    <li><a href="#input-types-supported">Input Types Supported</a></li>
+    <li><a href="#real-world-use-case">Real-World Use Case</a></li>
+    <li><a href="#-related-projects">🔗 Related Projects</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <p>It&rsquo;s just a mapping algorithm using a camera while simultaneously localising (ie: figuring out where the camera that is being used for the mapping is in the generated map).</p>
+<h1 id="a-camera-gives-me-a-2d-image-how-do-i-make-a-map-from-here">A camera gives me a 2D image, How do I make a map from here?</h1>
+<ul>
+<li>
+<p>we need to perceive depth from 2d image to understand spatial locations of object in the image from the camera.</p>
+<pre><code>  	2 approaches : 
+  		-Stereo camera setup (depth camera)
+  		- monocular camera depth estimation
+</code></pre>
+</li>
+</ul>
+<p>Stereo camera setup working principle:</p>
+<p>two cameras separated by a baseline distance perceives images with horizontal variation.</p>
+<p>Concept of triangulation:</p>
+<p>larger the variation - closer the object
+smaller the variation - farther the object</p>
+<p><img src="/images/depth.png" alt="Image Description"></p>
+<p>One can use Open-CV library functions to implement disparity map from two camera images assuming both the cameras are rigidly mounted and are of the same type and is calibrated well.
+(Look into chessboard calibration)</p>
+<ul>
+<li>
+<p>OpenCV’s <code>StereoBM</code> / <code>StereoSGBM</code> can be used</p>
+</li>
+<li>
+<p>Needs camera calibration (<code>cv::stereoCalibrate</code>)</p>
+</li>
+</ul>
+<p>Now that we are able to interpret depth from the image we can even slice this 3d depth data into horizontal scans for existing slam algorithms like g-mapping and cartographer.</p>
+<p>NOTE:</p>
+<ul>
+<li>
+<p><strong>LiDAR is generally more accurate</strong> and robust for outdoor and long-range.</p>
+</li>
+<li>
+<p><strong>Depth cameras are better</strong> for close-range and rich indoor data (with textures).</p>
+</li>
+</ul>
+<h3 id="monocular">Monocular:</h3>
+<ul>
+<li>
+<p>Learns depth from image <strong>appearance and motion</strong></p>
+</li>
+<li>
+<p>Scale is ambiguous unless:</p>
+<ul>
+<li>
+<p>You <strong>fuse with odometry or IMU</strong></p>
+</li>
+<li>
+<p>Or use deep learning models trained on known datasets.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="alright-what-slam-method-does-vslam-generally-work-with-if-not-regular-approach">Alright what SLAM method does VSLAM generally work with if not regular approach?</h1>
+<ul>
+<li>
+<p>Feature points based point cloud generation</p>
+</li>
+<li>
+<p>Feature points are generated from camera image using feature detection algorithms like ORB, SIFT , FAST &amp; BRIEF.</p>
+</li>
+<li>
+<p>Only depths of these points are stored.</p>
+</li>
+<li>
+<p>Using  odometry information usually obtained from either</p>
+<pre><code> 	imu sensors
+ 	wheel tick encoders
+ 	visual odometry
+</code></pre>
+</li>
+</ul>
+<p>Visual odometry is the main approach here:</p>
+<p>It works on the basis of epipolar geometry.</p>
+<ul>
+<li>feature points are mapped between left and right images.</li>
+<li>the corresponding points are projected into p_l and p_r in the left and right images.</li>
+</ul>
+<p><img src="/images/keyconcept.png" alt="Image Description"></p>
+<ul>
+<li>
+<p>p_l &rsquo;s corresponding p_R​ must lie on the <strong>epipolar line</strong> in the right image</p>
+</li>
+<li>
+<p>This <strong>reduces 2D search</strong> to a <strong>1D search</strong> along the epipolar line</p>
+</li>
+</ul>
+<h2 id="bonus-rectification-in-stereo-vision">Bonus: Rectification in Stereo Vision</h2>
+<ul>
+<li>
+<p>In stereo camera systems, images are usually <strong>rectified</strong>, so that:</p>
+<ul>
+<li>
+<p>Epipolar lines become <strong>horizontal</strong></p>
+</li>
+<li>
+<p>Matching is simplified to same-row correspondence</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>With a <strong>monocular camera</strong>, SLAM systems like <strong>ORB-SLAM2</strong> or <strong>DynaSLAM</strong>:</p>
+<ol>
+<li>
+<p>Detect feature points (e.g., ORB)</p>
+</li>
+<li>
+<p>Track them between frames</p>
+</li>
+<li>
+<p>Use <strong>epipolar constraints</strong> to:</p>
+<ul>
+<li>
+<p>Estimate the <strong>essential matrix</strong></p>
+</li>
+<li>
+<p>Recover the <strong>relative pose</strong> (rotation + translation)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Triangulate</strong> 3D landmarks from those correspondences</p>
+</li>
+</ol>
+<p>This is <strong>monocular structure-from-motion (SfM)</strong> at its core.</p>
+<hr>
+<h2 id="big-pain-point-scale-ambiguity">Big pain point: <strong>Scale Ambiguity</strong></h2>
+<p>With one camera:</p>
+<ul>
+<li>
+<p>You can’t determine <strong>absolute scale</strong></p>
+</li>
+<li>
+<p>It might say you moved 1 unit forward, but is that 1 cm or 1 m? You don’t know.</p>
+</li>
+</ul>
+<h3 id="ways-to-resolve-it">Ways to Resolve It:</h3>
+<ul>
+<li>
+<p>Add <strong>IMU</strong> (Visual-Inertial Odometry)</p>
+</li>
+<li>
+<p>Use known-size landmarks</p>
+</li>
+<li>
+<p>Use stereo or depth sensors</p>
+</li>
+</ul>
+<h1 id="we-detected-feature-points-and-tracked-its-movement-and-its-position-now-what">We detected feature points and tracked its movement and its position. now what?</h1>
+<ul>
+<li>VSLAM thrives on loop closure optimisation and Bundle adjustment to correct its visual odometry drift.  This is its major highlight.</li>
+</ul>
+<h2 id="1-what-is-loop-closure-in-vslam">1. What is <strong>Loop Closure</strong> in vSLAM?</h2>
+<p><strong>Loop closure</strong> is the process of <strong>detecting that the robot has returned to a previously visited place</strong> and <strong>correcting accumulated drift</strong> in its estimated trajectory.</p>
+<h3 id="why-is-it-needed">Why is it needed?</h3>
+<ul>
+<li>
+<p>Visual odometry (VO) and SLAM accumulate <strong>small errors</strong> (drift) over time.</p>
+</li>
+<li>
+<p>Without loop closure, your trajectory just keeps drifting more and more.</p>
+</li>
+<li>
+<p>When you revisit a place (e.g., the same room corner), loop closure <strong>detects it</strong> and <strong>pulls the whole map back into alignment</strong>.</p>
+</li>
+</ul>
+<hr>
+<h3 id="how-loop-closure-works">How Loop Closure Works:</h3>
+<ol>
+<li>
+<p><strong>Place Recognition</strong>:</p>
+<ul>
+<li>
+<p>The system compares the current view with past keyframes using visual descriptors (e.g., Bag of Words, DBoW2).</p>
+</li>
+<li>
+<p>If a match is found → possible loop.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Geometric Verification</strong>:</p>
+<ul>
+<li>
+<p>It verifies that the images match geometrically (i.e., their 3D features align).</p>
+</li>
+<li>
+<p>If confirmed → loop detected.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Graph Optimization</strong>:</p>
+<ul>
+<li>
+<p>The SLAM system adds a <strong>constraint</strong>: &ldquo;These two positions are actually the same place&rdquo;.</p>
+</li>
+<li>
+<p>Then it adjusts the entire pose graph to correct accumulated drift.</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-what-is-bundle-adjustment-ba">2. What is <strong>Bundle Adjustment (BA)</strong>?</h2>
+<p><strong>Bundle Adjustment</strong> is a <strong>nonlinear optimization</strong> process that:</p>
+<blockquote>
+<p>jointly refines all camera poses and 3D landmark positions to <strong>minimize reprojection error</strong>.</p></blockquote>
+<h3 id="reprojection-error">Reprojection Error?</h3>
+<ul>
+<li>
+<p>Suppose a 3D point P_i is seen in image frame  at pixel coordinates p^_i</p>
+</li>
+<li>
+<p>Based on current pose and 3D estimate, it should project to p_i</p>
+</li>
+<li>
+<p>The error is | p_i -p^_i  |^2</p>
+</li>
+</ul>
+<p><strong>Bundle Adjustment</strong> tries to find the best:</p>
+<ul>
+<li>
+<p>Camera poses:</p>
+</li>
+<li>
+<p>Landmark positions:</p>
+</li>
+</ul>
+<p>That minimize the total error:</p>
+<hr>
+<h2 id="how-they-work-together-in-vslam">How They Work Together in vSLAM</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>1. VO/SLAM runs</strong></td>
+          <td>New keyframes added, poses and landmarks estimated</td>
+      </tr>
+      <tr>
+          <td><strong>2. Loop detected</strong></td>
+          <td>Place recognition finds a match with old keyframe</td>
+      </tr>
+      <tr>
+          <td><strong>3. Pose graph optimized</strong></td>
+          <td>Using loop constraints, corrects drift</td>
+      </tr>
+      <tr>
+          <td><strong>4. Bundle adjustment</strong></td>
+          <td>Refines everything to high accuracy</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="example-orb-slam--rtab-map">Example: ORB-SLAM / RTAB-Map</h2>
+<ul>
+<li>
+<p><strong>Local BA</strong>: Run frequently on recent frames for fast correction</p>
+</li>
+<li>
+<p><strong>Global BA</strong>: Run after loop closure or at specific checkpoints</p>
+</li>
+</ul>
+<p><strong>DynaSLAM</strong> is an advanced visual SLAM system that extends <strong>ORB-SLAM2</strong> to work in <strong>dynamic environments</strong> — environments where <strong>moving objects</strong> (like people, cars, pets) are present.</p>
+<hr>
+<h2 id="why-dynaslam">Why DynaSLAM?</h2>
+<p>Classic SLAM systems like <strong>ORB-SLAM2</strong> assume the world is <strong>static</strong>.<br>
+But in the <strong>real world</strong>, things move — and moving objects <strong>break</strong> SLAM tracking and mapping because:</p>
+<ul>
+<li>
+<p>Feature matches become unstable</p>
+</li>
+<li>
+<p>Map gets filled with dynamic object positions</p>
+</li>
+<li>
+<p>Loop closure and relocalization fail</p>
+</li>
+</ul>
+<p><strong>DynaSLAM solves this</strong> by detecting and removing dynamic objects from the SLAM pipeline.</p>
+<hr>
+<h2 id="how-dynaslam-works">How DynaSLAM Works</h2>
+<p>DynaSLAM introduces a <strong>dynamic object filtering</strong> layer on top of ORB-SLAM2. It works in <strong>three main stages</strong>:</p>
+<h3 id="1--dynamic-object-detection">1.  <strong>Dynamic Object Detection</strong></h3>
+<p>Depending on the input type:</p>
+<h4 id="a-rgb-only-monocular">A. <strong>RGB Only (Monocular)</strong></h4>
+<ul>
+<li>
+<p>Uses <strong>deep learning</strong> (Mask R-CNN) to <strong>segment dynamic objects</strong> (like humans, vehicles).</p>
+</li>
+<li>
+<p>These masks are used to ignore features from those areas.</p>
+</li>
+</ul>
+<h4 id="b-rgb-d-depth-camera">B. <strong>RGB-D (Depth camera)</strong></h4>
+<ul>
+<li>
+<p>In addition to Mask R-CNN, it uses <strong>multi-view geometry</strong> to detect moving pixels.</p>
+<ul>
+<li>
+<p>Compares depth consistency between frames</p>
+</li>
+<li>
+<p>Detects inconsistent regions as dynamic</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="c-stereo">C. <strong>Stereo</strong></h4>
+<ul>
+<li>Similar geometric checks as with RGB-D</li>
+</ul>
+<hr>
+<h3 id="2--masking-out-dynamic-regions">2.  <strong>Masking Out Dynamic Regions</strong></h3>
+<ul>
+<li>
+<p>Dynamic pixels are <strong>masked out</strong> before:</p>
+<ul>
+<li>
+<p>Feature extraction</p>
+</li>
+<li>
+<p>Pose estimation</p>
+</li>
+<li>
+<p>Mapping</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>This ensures:</p>
+<ul>
+<li>
+<p>Only <strong>static parts</strong> of the environment are used</p>
+</li>
+<li>
+<p>The <strong>map stays clean</strong></p>
+</li>
+<li>
+<p>The <strong>trajectory becomes more stable</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="3-tracking-and-mapping">3. <strong>Tracking and Mapping</strong></h3>
+<ul>
+<li>
+<p>Uses ORB-SLAM2’s core pipeline</p>
+</li>
+<li>
+<p>Works even in crowded indoor scenes (e.g., walking people)</p>
+</li>
+</ul>
+<hr>
+<h2 id="output">Output</h2>
+<ul>
+<li>
+<p>Clean <strong>static map</strong> of the environment</p>
+</li>
+<li>
+<p>Robust <strong>camera trajectory</strong></p>
+</li>
+<li>
+<p>Optional: <strong>dynamic masks</strong> (for downstream tasks like scene understanding)</p>
+</li>
+</ul>
+<hr>
+<h2 id="input-types-supported">Input Types Supported</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Input Type</th>
+          <th>Supported?</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Monocular</td>
+          <td>✅</td>
+          <td>Needs deep learning (Mask R-CNN)</td>
+      </tr>
+      <tr>
+          <td>Stereo</td>
+          <td>✅</td>
+          <td>More accurate dynamic detection</td>
+      </tr>
+      <tr>
+          <td>RGB-D</td>
+          <td>✅</td>
+          <td>Combines depth + learning</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h2 id="real-world-use-case">Real-World Use Case</h2>
+<p>Let’s say you’re mapping a corridor while people are walking around.<br>
+With <strong>ORB-SLAM2</strong>:</p>
+<ul>
+<li>
+<p>The map will include moving people → ghost trails</p>
+</li>
+<li>
+<p>Trajectory may drift or lose tracking</p>
+</li>
+</ul>
+<p>With <strong>DynaSLAM</strong>:</p>
+<ul>
+<li>
+<p>People are masked out</p>
+</li>
+<li>
+<p>Only static walls/floor contribute to tracking</p>
+</li>
+<li>
+<p>Clean, usable map</p>
+</li>
+</ul>
+<hr>
+<h2 id="-related-projects">🔗 Related Projects</h2>
+<table>
+  <thead>
+      <tr>
+          <th>System</th>
+          <th>Feature</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mask R-CNN</td>
+          <td>Deep learning model for instance segmentation</td>
+      </tr>
+      <tr>
+          <td>SemanticFusion</td>
+          <td>SLAM with semantic labels</td>
+      </tr>
+      <tr>
+          <td>Co-Fusion / MID-Fusion</td>
+          <td>Real-time dynamic SLAM alternatives</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2025 Falconspy6015.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+
+
+    
+    <script src="https://falconspy6015.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>
